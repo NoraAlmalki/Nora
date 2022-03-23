@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head >
+	<meta name="viewport" content="width=device-width, initial-scale=1"
+<meta charset="utf-8">
+	
+<title>nora profile</title>
+	
+	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {
+        'packages':['geochart'],
+      });
+      google.charts.setOnLoadCallback(drawRegionsMap);
+
+      function drawRegionsMap() {
+        var data = google.visualization.arrayToDataTable([
+          ['Country', 'visited in '],
+          ['Germany', 2015],
+          ['United States', 2018],
+          ['Brazil', 2010],
+          ['Canada', 2009],
+          ['France', 2016],
+          ['RU', 2012]
+        ]);
+
+        var options = {};
+
+        var chart = new google.visualization.GeoChart(document.getElementById('regions_div'));
+
+        chart.draw(data, options);
+      }
+    </script>
+  
+<style type="text/css">
+</style>
+<link href="file:///C|/Users/n_alm/OneDrive/Documents/my dream weaver/style.css" rel="stylesheet" type="text/css">
+	<!--data collection-->
+	<!--<script type="text/javascript" src="https://form.jotform.com/jsform/220783623528459"></script>-->
+</head>
+
+<body>
+	<div>
+    <img src="file:///C|/Users/n_alm/OneDrive/Documents/my dream weaver/2.png" width="400" height="172" alt=""/></div>
+<div>
+	<ul >
+  <li><a class="active" href="#skills">Skills</a></li>
+  <li><a href="#background">Background</a></li>
+  <li><a href="#experiance">Experiance</a></li>
+  <li><a href="#projects">Projects</a></li>
+		<li><a href="#news">News</a></li>
+</ul>
+	</div>
+	<br>
+<div class="mydiv"><br>
+		<font size="8"> <font size="10" , face="Times New Roman"> Hello,</font> My name is Nora Almalki. <br>
+		Graduated from <font size="10" , face="Times New Roman">Umm Alqura University </font> in <font size="10" , face="Times New Roman">Computer Science.</font>  </font> <br> <br>
+	</div>
+	<div id="skills">
+ 
+	<div id="background"></div>
+	<div id="experiance"></div>
+	<div id="projects"></div>
+	<div id="news"></div>
+		<h4>		I am interested in traveling around the world, the trips I have taken:
+</h4> <br>
+		<div id="regions_div" style="width: 900px; height: 500px;">
+		</div>
+		<div> Watch me soon on my youtube channel !<br>
+			<a href="https://www.youtube.com/channel/UC8o0PIW3-cWS1es5BmHGxJQ">
+	    <img src="file:///C|/Users/n_alm/Downloads/youtube-symbol-pngrepo-com.png" width="88" height="88" alt=""/> </a> </div>
+</body>
+</html>
