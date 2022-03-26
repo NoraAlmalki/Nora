@@ -39,3 +39,9 @@ li a:hover {
 
 
 
+
+@media (max-width: 400px){
+}
+
+@media ( min-width : 1px ) and (max-width : 832px ){
+}
