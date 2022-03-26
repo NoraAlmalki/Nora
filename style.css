@@ -27,7 +27,9 @@ li a:hover {
   background-color: #111;
 }
 .mydiv {
-	background-color: #8CA2A2
+	background-color: #DCDBD8
+		
+		
 }
 
 
@@ -40,3 +42,5 @@ li a:hover {
 /* mobile view*/
 @media (max-width: 400px){
 }
+
+
